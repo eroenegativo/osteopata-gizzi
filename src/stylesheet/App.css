@@ -75,12 +75,7 @@ ul > li {
 #basic-button{
   border:0 none transparent!important;
 }
-.MuiGrid-spacing-xs-2 > .MuiGrid-item{
-  padding: 0!important;
-}
-.MuiGrid-spacing-xs-2{
-  margin:0!important;
-}
+
 
 /**/
 ::selection {
@@ -104,5 +99,15 @@ ul > li {
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 690px) {
+  .MuiGrid-spacing-xs-2{
+    padding:8px;
+  }
+}
 
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 900px) {
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item{
+    padding: 0!important;
+  }
+  
 }
