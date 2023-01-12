@@ -75,7 +75,12 @@ ul > li {
 #basic-button{
   border:0 none transparent!important;
 }
-
+.MuiGrid-spacing-xs-2 > .MuiGrid-item{
+  padding: 0!important;
+}
+.MuiGrid-spacing-xs-2{
+  margin:0!important;
+}
 
 /**/
 ::selection {
