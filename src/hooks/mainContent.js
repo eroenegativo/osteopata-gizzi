@@ -24,7 +24,7 @@ const mainContentList = () => {
 			altText: "Osteopatia,per la cura  quotidiana",
 			id: "osteo",
 			btnText: "Scopri L'osteopatia",
-			description: "L'osteopatia mira a migliorare la salute e il benessere psico-fisico di ogni iindividuo.",
+			description: "L'osteopatia mira a migliorare la salute e il benessere psico-fisico di ogni INDIVIDUO.",
 			xs: "12",
 			lg: "6",
 			
