@@ -1,0 +1,103 @@
+
+body{
+  background-color: #f3f3f3;
+  color:#666;
+  text-align:"center";
+  margin:0 auto;
+  padding:25px 25px;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+svg{
+  font-size: 50px!important;
+  line-height: 50px!important;
+
+}
+.slogan-wrapper{
+  background-color:#f78d97;
+  height: 70px;
+  color:white !important;
+  margin: 0 auto;
+}
+.detailCard{
+  text-align: center;
+  padding:10% 5%;
+  color:#666;
+  /* background: linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+ /*  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /*  background-clip: text;*/
+  /* color: transparent;*/
+
+}
+/*.detailCard:hover{
+  background: linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* color:white;
+} */
+ .MuiButton-root {
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid rgb(252, 199, 205) !important;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  margin: 30px 0;
+}
+
+
+.MuiButton-root:hover {
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+ 
+}
+.grid-left, .grid-right{
+  align-items: center;
+}
+ul > li {
+  list-style-type: none;
+  margin: 0 auto;
+}
+.list-about{
+  padding: 0;
+}
+.mainImage{
+  width:100%;
+}
+#basic-button > svg{
+  max-width: 20px;
+  color:#EF629F;
+}
+
+#basic-button{
+  border:0 none transparent!important;
+}
+
+
+/**/
+::selection {
+  color: #ffffff;
+  background: #ff9ea7;
+}
+.box-wrapper{
+  margin:0 auto;
+  padding: 0 10%;
+  align-items: flex-start;
+}
+
+.cta{
+  margin-top: 30px;
+}
+.back-cta{
+  border-radius:0;
+  border: 0 none transparent!important;
+  color: white !important;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 690px) {
+
+}

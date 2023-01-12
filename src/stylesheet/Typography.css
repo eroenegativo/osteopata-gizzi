@@ -1,0 +1,118 @@
+body{
+    font-family: Roboto;
+    letter-spacing: 2px;
+    font-size: 8px;
+    line-height: 27px;
+    font-weight: 100;
+    color: rgba(10,10,10,0.6);
+    text-align: center;
+}
+h1.MuiTypography-h1{
+    font-family: 'Meddon', cursive;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: rgba(10,10,10,0.3);
+    line-height: 35px;
+    font-weight: 700;
+}
+h2.MuiTypography-h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgba(10,10,10,0.3);
+    font-weight: 200;
+}
+.slogan-wrapper > h3.MuiTypography-h3{
+    text-transform: none;
+    color: white;
+    line-height: 1;
+    font-weight: 300;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+h3.MuiTypography-h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: rgba(10,10,10,0.6);
+    line-height: 52px;
+    font-weight: 700;
+}
+h4.MuiTypography-4{
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color:#ff9ea7; 
+}
+
+
+h5.MuiTypography-h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color:#ff9ea7; 
+}
+h6.MuiTypography-h6{
+    font-size: 10px;
+    line-height: 27px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: px;
+    color: rgba(10,10,10,0.6);
+  }
+.credit{
+    font-size:8px;
+}
+.credit > a {
+    font-size:8px;
+}
+.MuiButton-label{
+    font-weight: 600;
+    color:#ff9ea7; 
+    padding:5px;
+    letter-spacing: 5px;
+  }
+  .MuiButton-label:hover{
+    font-weight: 600;
+    letter-spacing: 5px;
+    color:white;
+  }
+@media only screen and (min-width: 690px){
+    body {
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+    h1.MuiTypography-h1{
+        font-size: 35px;
+        line-height: 52px;
+        padding-bottom: 10px;
+    }
+    h2.MuiTypography-h2{
+        font-size: 20px;
+        color: rgba(10,10,10,0.6);
+    }
+    h3.MuiTypography-h3{
+        font-size: 30px;
+    }
+    h4.MuiTypography-4{
+        font-size: 24px;
+    }
+    
+    h5.MuiTypography-h5{
+        font-size: 18px;
+    }
+
+    h6.MuiTypography-h6{
+        font-size: 16px;
+    }
+       
+    
+    a {
+     font-size: 12px;
+      }
+}
+
