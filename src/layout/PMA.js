@@ -71,6 +71,7 @@ function PMALayout() {
               Puoi trovare maggiori informazioni sul{" "}
               <a
                 href="https://www.oneofmany.it/"
+                rel="noreferrer" 
                 target="_blank"
                 alt="One of Many- progetto fotografico iniziato frequentando le sale d'attesa nei centri sulla fertilità"
               >
@@ -101,9 +102,10 @@ function PMALayout() {
               Faccio parte del "One of Many's Team " : un equipe di specialisti
               a tua disposizione, un approccio multidisciplinare alla fertilità
               <br />
-              Puoi trovare maggiori informazioni sul{" "}
+              Puoi trovare maggiori informazioni sul
               <a
                 href="https://www.oneofmany.it/"
+                rel="noreferrer" 
                 target="_blank"
                 alt="One of Many- progetto fotografico iniziato frequentando le sale d'attesa nei centri sulla fertilità"
               >
