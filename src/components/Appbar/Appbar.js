@@ -14,7 +14,7 @@ export default function BasicMenu() {
             </Grid>
             <Grid item xs={6} lg={10}>
               <Typography variant='h1'> dr. Claudia Gizzi</Typography>
-              <Typography variant='h2'>Osteopata e Esperta in fertilit&agrave;</Typography>
+              <Typography variant='h2'>Osteopata ed Esperta in fertilit&agrave;</Typography>
             </Grid>
 
       </Grid>

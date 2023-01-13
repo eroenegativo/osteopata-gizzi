@@ -43,8 +43,8 @@ function PMALayout() {
           apparato legamentoso.
           <br />
           È sempre necessario che quest'ultimo non risulti nè accorciato nè
-          stirato, per garantire a utero/tube/ovaie una corretta possibilita di
-          muovimento, indispensabile perche avvenga l'impianto dell'embrione.
+          stirato, per garantire a utero/tube/ovaie una corretta possibilit&agrave; di
+          muovimento, indispensabile perch&egrave; avvenga l'impianto dell'embrione.
           <br />
           Soffri di stitichezza, colon irritabile o di irregolarita intestinale?
           <br />

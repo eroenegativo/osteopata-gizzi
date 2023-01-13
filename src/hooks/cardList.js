@@ -10,7 +10,7 @@ const cardList = () => {
 		{  
             title: "Professionalità",
 			id: "profession",
-			description: "Mi aggorno costantemente in ambito medico scientifico, per poterti offrirti la migliore cura",
+			description: "Mi aggiorno costantemente in ambito medico scientifico, per poterti offrirti la migliore cura",
 		},
         {
             title: "Relazione",

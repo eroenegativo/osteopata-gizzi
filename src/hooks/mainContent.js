@@ -60,7 +60,7 @@ const mainContentList = () => {
 			title: "Un Sostegno per la tua Fertilità",
 			variant:"h3",
 			id: "contact",
-			description: "Non esitare a contattarmi, capiremo insieme in una prima telefonata  gratuita se posso aiutarti nela risoluzione del tuo problema. Il consulto non comporta alcun impegno",
+			description: "Non esitare a contattarmi, capiremo insieme in una prima telefonata  gratuita se posso aiutarti nella risoluzione del tuo problema. Il consulto non comporta alcun impegno",
 			xs: "12",
 			lg: "6",
 		},
