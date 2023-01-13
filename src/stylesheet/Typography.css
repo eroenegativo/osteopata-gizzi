@@ -79,7 +79,7 @@ a {
   .MuiButton-label:hover{
     font-weight: 600;
     letter-spacing: 5px;
-    color:white;
+    /* color:white; */
   }
 @media only screen and (min-width: 690px){
     body {

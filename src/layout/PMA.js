@@ -67,24 +67,23 @@ function PMALayout() {
             <Typography variant="body1">
               Faccio parte del "One of Many's Team " : un equipe di specialisti
               a tua disposizione, un approccio multidisciplinare alla fertilità
-              <br />
-              Puoi trovare maggiori informazioni sul{" "}
-              <a
-                href="https://www.oneofmany.it/"
-                rel="noreferrer" 
-                target="_blank"
-                alt="One of Many- progetto fotografico iniziato frequentando le sale d'attesa nei centri sulla fertilità"
-              >
-                sito
-              </a>
+       
             </Typography>
           </Grid>
           <Grid item xs={12} lg={6}>
+          <a
+                href="https://www.oneofmany.it/"
+                rel="noreferrer" 
+                target="_blank"
+                alt="One of Many's Team n equipe di specialisti
+                a tua disposizione, un approccio multidisciplinare alla fertilità"
+              >
             <img
               src={OneofMany}
-              alt="L'osteopatia e come supporta il vostro percorso PMA"
+              alt="One of Many's Team:L'osteopatia supporta il vostro percorso PMA"
               className="mainImage"
             />
+           </a>
           </Grid>
         </React.Fragment>
       ) : (

@@ -9,6 +9,7 @@ export default function BasicMenu() {
   return (
     <div>
       <Grid container>
+        <a href="www.osteopatagizzi.it" target="_self" alt="Osteopata Claudia Gizzi">
             <Grid item xs={3} lg={1}>
             <img src={mainLogo} alt="osteopata ed esperta PMA" height={80} />
             </Grid>
@@ -16,7 +17,7 @@ export default function BasicMenu() {
               <Typography variant='h1'> dr. Claudia Gizzi</Typography>
               <Typography variant='h2'>Osteopata ed Esperta in fertilit&agrave;</Typography>
             </Grid>
-
+</a>
       </Grid>
       
     </div>
