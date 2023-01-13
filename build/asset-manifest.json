@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1c4e0e6.css",
-    "main.js": "/static/js/main.545815a4.js",
+    "main.js": "/static/js/main.4b94c79f.js",
     "static/media/rivoluzione-PMA.jpeg": "/static/media/rivoluzione-PMA.a2adab0d6d8c0384e91a.jpeg",
     "static/media/osteopatia.jpg": "/static/media/osteopatia.0e9ca7f331735f5f8938.jpg",
     "static/media/pma.jpg": "/static/media/pma.64c4cdef5f14dd452864.jpg",
@@ -12,10 +12,10 @@
     "static/media/logo-utero.svg": "/static/media/logo-utero.fa61bf1910e9f982dc583e409d3f72c7.svg",
     "index.html": "/index.html",
     "main.c1c4e0e6.css.map": "/static/css/main.c1c4e0e6.css.map",
-    "main.545815a4.js.map": "/static/js/main.545815a4.js.map"
+    "main.4b94c79f.js.map": "/static/js/main.4b94c79f.js.map"
   },
   "entrypoints": [
     "static/css/main.c1c4e0e6.css",
-    "static/js/main.545815a4.js"
+    "static/js/main.4b94c79f.js"
   ]
 }
