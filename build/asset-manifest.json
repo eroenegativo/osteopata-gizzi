@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1c4e0e6.css",
-    "main.js": "/static/js/main.4b94c79f.js",
+    "main.css": "/static/css/main.7e64bf86.css",
+    "main.js": "/static/js/main.ff73b2cd.js",
     "static/media/rivoluzione-PMA.jpeg": "/static/media/rivoluzione-PMA.a2adab0d6d8c0384e91a.jpeg",
     "static/media/osteopatia.jpg": "/static/media/osteopatia.0e9ca7f331735f5f8938.jpg",
     "static/media/pma.jpg": "/static/media/pma.64c4cdef5f14dd452864.jpg",
     "static/media/oneofmani-1-libro.jpg": "/static/media/oneofmani-1-libro.d5ef1916681d8c9c9c5c.jpg",
     "static/media/claudia-gizzi-desktop.jpg": "/static/media/claudia-gizzi-desktop.c024637eef0b45dcfb93.jpg",
-    "static/media/claudia-gizzi-osteopata.jpg": "/static/media/claudia-gizzi-osteopata.0e99a491506c1175bfbf.jpg",
+    "static/media/claudia-gizzi-osteopata.jpg": "/static/media/claudia-gizzi-osteopata.98d5e5d9d60e8fda9e0c.jpg",
     "static/media/box_logo.svg": "/static/media/box_logo.f8ffeed3510f3f18b5eb69177541931d.svg",
     "static/media/logo-utero.svg": "/static/media/logo-utero.fa61bf1910e9f982dc583e409d3f72c7.svg",
     "index.html": "/index.html",
-    "main.c1c4e0e6.css.map": "/static/css/main.c1c4e0e6.css.map",
-    "main.4b94c79f.js.map": "/static/js/main.4b94c79f.js.map"
+    "main.7e64bf86.css.map": "/static/css/main.7e64bf86.css.map",
+    "main.ff73b2cd.js.map": "/static/js/main.ff73b2cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c4e0e6.css",
-    "static/js/main.4b94c79f.js"
+    "static/css/main.7e64bf86.css",
+    "static/js/main.ff73b2cd.js"
   ]
 }

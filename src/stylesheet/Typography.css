@@ -27,6 +27,7 @@ h2.MuiTypography-h2{
     color: white;
     line-height: 1;
     font-weight: 300;
+    font-size: 20px;
     padding: 10px;
     font-family: 'Dancing Script', cursive;
 }
