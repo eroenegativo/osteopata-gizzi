@@ -10,7 +10,7 @@ export default function BasicMenu() {
     <div>
       <Grid container>
             <Grid item xs={3} lg={1}>
-            <img src={mainLogo} alt="osteopata ed esperta PMA" height={80} />
+            <img src={mainLogo} alt="Claudia Gizzi:osteopata ed esperta PMA" height={80} />
             </Grid>
             <Grid item xs={6} lg={10}>
               <Typography variant='h1'> dr. Claudia Gizzi</Typography>

@@ -37,7 +37,7 @@ return (
          </Grid>
          <Grid item xs={12} lg={6}>
             {category.src ? (
-            <img src={category.src} alt={category.altText} width="100%" display="block" />
+            <img src={category.src} alt={category.altText} width="100%" display="block" loading="lazy"/>
             ) : null}
          </Grid>
       </React.Fragment>
@@ -45,7 +45,7 @@ return (
       <React.Fragment>
          <Grid item xs={12} lg={6}>
             {category.src ? (
-            <img src={category.src} alt={category.altText} width="100%" display="block" />
+            <img src={category.src} alt={category.altText} width="100%" display="block" loading="lazy"/>
             ) : null}
          </Grid>
          <Grid item xs={12} lg={6}>
@@ -66,9 +66,9 @@ return (
    <Grid container spacing={2} margin={15} key={category.id}  className="grid-right">
       <Grid item xs={category?.xs} lg={category?.lg} >
          {category.id === "about" ? (
-         <img src={window.innerWidth > 1024 ? ClaudiaGizzidesktop :  ClaudiaGizziMobile } alt={category?.altText} className="mainImage"/>
+         <img src={window.innerWidth > 1024 ? ClaudiaGizzidesktop :  ClaudiaGizziMobile } alt={category?.altText} className="mainImage" loading="lazy"/>
          ):(
-         <img src={category?.src}  alt={category?.altText} width="100%" display="block"/>
+         <img src={category?.src}  alt={category?.altText} width="100%" display="block" loading="lazy"/>
          )}
       </Grid>
       <Grid item xs={category?.xs} lg={category?.lg}>

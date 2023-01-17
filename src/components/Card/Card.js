@@ -11,7 +11,7 @@ const cards=cardList();
             {cards.map((card)=>(
                     <Box key={card.id}  className="detailCard"> 
                       
-                      <Box><img src={BoxLogo} alt={card.id}/></Box>
+                      <Box><img src={BoxLogo} alt={"claudia gizzi d.o"+ card.id} /></Box>
                          <Typography variant="h6"><b>{card?.title}</b></Typography>
                          <Typography variant="body2">{card?.description}</Typography>
                     </Box>
