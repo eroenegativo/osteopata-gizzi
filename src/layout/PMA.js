@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
+import LazyLoad from "react-lazyload";
 import OsteoPMA from "../assets/pma.jpg";
 import OneofMany from "../assets/oneofmani-1-libro.jpg";
 import BackButton from "../components/BackButton/BackButton";
@@ -13,11 +14,13 @@ function PMALayout() {
         </header>
       </Grid>
       <Grid item xs={12} lg={6}>
+      <LazyLoad height={150} offset={100}>
         <img
           src={OsteoPMA}
           alt="L'osteopatia e come supporta il vostro percorso PMA"
           className="mainImage"
         />
+      </LazyLoad>
       </Grid>
       <Grid item xs={12} lg={6}>
         <Typography variant="h3"> Quando il bambino non arriva</Typography>
@@ -78,22 +81,26 @@ function PMALayout() {
                 alt="One of Many's Team n equipe di specialisti
                 a tua disposizione, un approccio multidisciplinare alla fertilità"
               >
-            <img
+             <LazyLoad height={150} offset={100}>
+             <img
               src={OneofMany}
               alt="One of Many's Team:L'osteopatia supporta il vostro percorso PMA"
               className="mainImage"
             />
+             </LazyLoad>
            </a>
           </Grid>
         </React.Fragment>
       ) : (
         <React.Fragment>
           <Grid item xs={12} lg={6}>
+          <LazyLoad height={150} offset={100}>
             <img
               src={OneofMany}
               alt="L'osteopatia e come supporta il vostro percorso PMA"
               className="mainImage"
             />
+            </LazyLoad>
           </Grid>
           <Grid item xs={12} lg={6}>
             <Typography variant="h3"> ONE OF MANY</Typography>

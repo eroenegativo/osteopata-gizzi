@@ -3,6 +3,7 @@ import {
     Grid,
     Typography
 } from "@material-ui/core";
+import LazyLoad from "react-lazyload";
 import ClaudiaGizziMobile from "../assets/claudia-gizzi-osteopata.jpg";
 import ClaudiaGizzidesktop from "../assets/claudia-gizzi-desktop.jpg";
 import BackButton from "../components/BackButton/BackButton";
@@ -19,7 +20,9 @@ function AboutLayout() {
             </header> 
             </Grid>
             <Grid item xs={12} lg={6}>
-                <img src={window.innerWidth > 1024 ? ClaudiaGizzidesktop :  ClaudiaGizziMobile } alt="Claudia Gizzi- Osteopata" className="mainImage"/>
+            <LazyLoad height={150} offset={100}>
+            <img src={window.innerWidth > 1024 ? ClaudiaGizzidesktop :  ClaudiaGizziMobile } alt="Claudia Gizzi- Osteopata" className="mainImage"/>
+            </LazyLoad>
             </Grid>
             <Grid item xs={12} lg={6}>
                 <Typography variant="body1">
