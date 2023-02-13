@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid} from '@material-ui/core';
 import mainLogo from "../../assets/logo-utero.svg";
 
 
