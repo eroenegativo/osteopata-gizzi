@@ -28,7 +28,7 @@ function HomeLayout() {
               <React.Fragment>
                 <Grid item xs={12} lg={6}>
                   <div>
-                    <Typography variant="h3">{category.title}</Typography>
+                    <h3>{category.title}</h3>
                     <Typography variant="body1">
                       {category.description}
                     </Typography>
@@ -72,7 +72,7 @@ function HomeLayout() {
                 </Grid>
                 <Grid item xs={12} lg={6}>
                   <div>
-                    <Typography variant="h3">{category.title}</Typography>
+                    <h3>{category.title}</h3>
                     <Typography variant="body1">
                       {category.description}
                     </Typography>
