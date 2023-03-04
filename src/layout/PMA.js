@@ -10,7 +10,7 @@ function PMALayout() {
     <Grid container margin={30} alignItems="center">
       <Grid item xs={12} lg={12}>
         <header className="slogan-wrapper">
-          <Typography variant="h3">Osteopatia e PMA</Typography>
+          <h3>Osteopatia e PMA</h3>
         </header>
       </Grid>
       <Grid item xs={12} lg={6}>
@@ -23,7 +23,7 @@ function PMALayout() {
       </LazyLoad>
       </Grid>
       <Grid item xs={12} lg={6}>
-        <Typography variant="h3"> Quando il bambino non arriva</Typography>
+        <h4> Quando il bambino non arriva</h4>
         <Typography variant="body1">
           Si può parlare di infertilità se non si riesce a concepire entro i 12
           mesi per donne d'età inferiore ai 37 anni, mentre il cut-off superata
@@ -66,7 +66,7 @@ function PMALayout() {
       {window.innerWidth > 1024 ? (
         <React.Fragment>
           <Grid item xs={12} lg={6}>
-            <Typography variant="h3"> ONE OF MANY</Typography>
+            <h4> ONE OF MANY</h4>
             <Typography variant="body1">
               Faccio parte del "One of Many's Team " : un equipe di specialisti
               a tua disposizione, un approccio multidisciplinare alla fertilità
@@ -103,7 +103,7 @@ function PMALayout() {
             </LazyLoad>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <Typography variant="h3"> ONE OF MANY</Typography>
+            <h4> ONE OF MANY</h4>
             <Typography variant="body1">
               Faccio parte del "One of Many's Team " : un equipe di specialisti
               a tua disposizione, un approccio multidisciplinare alla fertilità

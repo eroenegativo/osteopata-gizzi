@@ -22,7 +22,7 @@ h2{
     color: rgba(10,10,10,0.3);
     font-weight: 200;
 }
-.slogan-wrapper > h3.MuiTypography-h3{
+.slogan-wrapper > h3{
     text-transform: none;
     color: white;
     line-height: 1;
@@ -47,7 +47,7 @@ h3.MuiTypography-h3{
     line-height: 52px;
     font-weight: 700;
 }
-h4.MuiTypography-4{
+h4{
     font-size: 16px;
     line-height: 12px;
     font-weight: 400;
@@ -56,13 +56,13 @@ h4.MuiTypography-4{
 }
 
 
-h5.MuiTypography-h5{
+h5{
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     color:#ff9ea7; 
 }
-h6.MuiTypography-h6{
+h6{
     font-size: 14px;
     line-height: 27px;
     font-weight: 400;

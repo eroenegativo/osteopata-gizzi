@@ -16,7 +16,7 @@ function AboutLayout() {
         <Grid container margin={30}  alignItems="center">
              <Grid item xs={12} lg={12}>
            <header className="slogan-wrapper">
-            <Typography variant="h3">Conoscimi Meglio</Typography>
+            <h3>Conoscimi Meglio</h3>
             </header> 
             </Grid>
             <Grid item xs={12} lg={6}>

@@ -9,7 +9,7 @@ function OsteoLayout() {
     <Grid container margin={30} alignItems="center">
       <Grid item xs={12} lg={12}>
         <header className="slogan-wrapper">
-          <Typography variant="h3">Osteopatia</Typography>
+          <h3>Osteopatia</h3>
         </header>
       </Grid>
       <Grid item xs={12} lg={6}>
@@ -32,35 +32,29 @@ function OsteoLayout() {
         <Typography variant="body1">
           <ul>
             <li>
-              {" "}
               <Typography variant="body1">*Gastrici (Reflusso);</Typography>
             </li>
             <li>
-              {" "}
               <Typography variant="body1">
                 *Intestinali (colite spastica/ transito irregolare);
               </Typography>
             </li>
             <li>
-              {" "}
               <Typography variant="body1">
                 *Cefalea/Emicrania/Sinusite/Nevralgia;
               </Typography>
             </li>
             <li>
-              {" "}
               <Typography variant="body1">
                 *Disturbi del sonno e psicosomatici;
               </Typography>
             </li>
             <li>
-              {" "}
               <Typography variant="body1">
                 *Sintomatologie vagali: aritmie, nausea e vertigini
               </Typography>
             </li>
             <li>
-              {" "}
               <Typography variant="body1">
                 *Disturbi mestruali e ginecologici: amennorea, dismenorrea,
                 endometriosi, cistite.

@@ -16,16 +16,16 @@ function Footer() {
     </div>
     <div style={{ backgroundColor:"#fcb7bd"}}>
     <div className="row">
-        <Typography variant="h6">INFORMAZIONI </Typography>
+        <h6>INFORMAZIONI </h6>
         </div>
     <div className="row">
         <div className="box-wrapper">
-            <Typography variant="h6">D.O. CLAUDIA GIZZI ESPERTA IN FERITILITÀ</Typography>
+            <h6>D.O. CLAUDIA GIZZI ESPERTA IN FERITILITÀ</h6>
             <img src={logo} alt="osteopata ed esperta PMA" height={120}/>
         </div>
         <div className="box-wrapper">
             <div>
-            <Typography variant="h6">SEDE LEGALE</Typography>
+            <h6>SEDE LEGALE</h6>
             <Typography variant="body2">Via Nicola Paganini 17, Milano 20131</Typography>
             </div>
             <div>
@@ -34,7 +34,7 @@ function Footer() {
             </div>
         </div>
         <div className="box-wrapper">
-            <Typography variant="h6">CONTATTI</Typography>
+            <h6>CONTATTI</h6>
             <div>
             <Typography variant="body2"><b>TELEFONO:</b><a href="+393427886135" alt="chiamami">+393427886135</a></Typography><br/>
             <Typography variant="body2"><b>EMAIL:</b><a href="mailto:osteopataclaudiagizzi@gmail.com"   target="_blank"  alt="scrivimi" rel="noreferrer">osteopataclaudiagizzi@gmail.com</a></Typography><br/>

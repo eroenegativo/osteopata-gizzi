@@ -123,10 +123,10 @@ function HomeLayout() {
               )}
             </Grid>
             <Grid item xs={category?.xs} lg={category?.lg}>
-              <Typography variant={category?.variant}>
+              <h3>
                 {category?.title}
-              </Typography>
-              <Typography variant="h5">{category?.subtitle}</Typography>
+              </h3>
+              <h5>{category?.subtitle}</h5>
               <Typography variant="body1">{category?.description}</Typography>
               {category.component ? <div>{category.component}</div> : null}
               {category.id === "contact" ? (
